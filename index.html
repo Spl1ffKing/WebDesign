@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+
+    <script>
+        function showAlert() {
+        alert ("you are logged in");
+        }
+    </script>
+</head>
+<body>
+    <div id="WebsiteBackground">
+
+        <div id="NavigationPanel">
+            <div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="games.html">Games</a></li>
+                  </ul>
+            </div>
+        </div>
+
+        <div id="FormBox">
+
+            <div id="LoginText"> <p>Login</p> </div>
+
+            <div>
+                <form id="LoginForm">
+                    
+                    <input type="email" placeholder="Enter Email Here" id="LoginFormEmail"> <p></p>
+                    <input type="password" placeholder="Enter Password Here" id="LoginFormPassword"><p></p>
+                    <input type="submit" onclick="showAlert()" placeholder="Login" id="LoginFormSubmit" value="Login">
+
+                    
+
+                </form>
+            </div>
+            
+            <div id="RegisterText"> <p>Register</p> </div>
+
+            <div>
+                <form id="RegisterForm">
+                    
+
+
+                    <input type="text" placeholder="Enter Name Here" id="RegisterFormName"> <p></p>
+                    <input type="text" placeholder="Enter Surname Here" id="RegisterFormSurname"> <p></p>
+                    <input type="email" placeholder="Enter Email Here" id="RegisterFormEmail"> <p></p>
+                    <input type="password" placeholder="Enter Password Here" id="RegisterFormPassword"><p></p>
+                    <input type="submit" placeholder="Register" id="RegisterFormSubmit" value="Register">
+                </form>
+            </div>
+
+        </div>
+    </div>  
+</body>
+</html>

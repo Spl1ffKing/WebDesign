@@ -1,0 +1,477 @@
+#WebsiteBackground {
+    background-image: url(HomeAssigmentResources/background.jpg);
+    width: 100%;
+    height: 700px;   
+    margin: 0 auto;
+    background-position: center;
+
+}
+
+#NavigationPanel {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #C7AF82;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1.5px;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+li a:hover:not(.active) {
+    background-color: #ae9567;
+}
+
+#GamesWindow {
+    float: left;
+    width: 1000px;
+    height: 550px;
+    margin-left: 17%;
+    position: fixed;
+    margin-top: 7%;
+    background-color: white;
+    stroke: black;
+    stroke-width: 5px;
+    border-radius: 15px;
+}
+
+#GamesHeader {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 45%;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#GamesHeaderUnderline {
+    float: left;
+    background-color: black;
+    margin-left: 30%;
+    margin-top: 15px;
+    width: 450px;
+    height: 3px;
+    border-radius: 30px;
+}
+
+#Roulette {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    margin-top: 120px;
+    margin-left: 20px;
+    width: 30%;
+    height: 80px;
+    background-color: gray;
+    border-color: black;
+    border-style: solid;
+    background-image: url(HomeAssigmentResources/rouletteimage.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+#RouletteText {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 40%;
+    margin-top: 30%;
+    font-size: 20px;
+}
+
+#RouletteText:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+#RouletteText:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+#RouletteText:hover {
+    color: darkred;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+#RouletteText:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#Slotmachine {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    margin-top: -85px;
+    margin-left: 350px;
+    width: 30%;
+    height: 80px;
+    background-color: gray;
+    border-color: black;
+    border-style: solid;
+    background-image: url(HomeAssigmentResources/slotmachineimage.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+#SlotmachineText {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 30%;
+    margin-top: 30%;
+    font-size: 20px;
+}
+
+#SlotmachineText:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#SlotmachineText:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+#SlotmachineText:hover {
+    color: darkred;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+#SlotmachineText:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#Slot3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    margin-top: -85px;
+    margin-left: 680px;
+    width: 30%;
+    height: 80px;
+    background-color: gray;
+    border-color: black;
+    border-style: solid;
+}
+
+#Slot3Text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 40%;
+    margin-top: 30%;
+    font-size: 20px;
+
+}
+
+#Slot3Text:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#Slot3Text:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+#Slot3Text:hover {
+    color: darkred;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+#Slot3Text:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#Slot4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 30%;
+    height: 80px;
+    background-color: gray;
+    border-color: black;
+    border-style: solid;
+}
+
+#Slot4Text:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#Slot4Text:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+#Slot4Text:hover {
+    color: darkred;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+#Slot4Text:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#Slot4Text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 40%;
+    margin-top: 30%;
+    font-size: 20px;
+}
+
+#Slot5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    margin-top: -85px;
+    margin-left: 350px;
+    width: 30%;
+    height: 80px;
+    background-color: gray;
+    border-color: black;
+    border-style: solid;
+}
+
+#Slot5Text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 40%;
+    margin-top: 30%;
+    font-size: 20px;
+}
+
+#Slot5Text:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#Slot5Text:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+#Slot5Text:hover {
+    color: darkred;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+#Slot5Text:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#Slot6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    margin-top: -85px;
+    margin-left: 680px;
+    width: 30%;
+    height: 80px;
+    background-color: gray;
+    border-color: black;
+    border-style: solid;
+}
+
+#Slot6Text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 40%;
+    margin-top: 30%;
+    font-size: 20px;
+}
+
+#Slot6Text:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#Slot6Text:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+#Slot6Text:hover {
+    color: darkred;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+#Slot6Text:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#Slot7 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 30%;
+    height: 80px;
+    background-color: gray;
+    border-color: black;
+    border-style: solid;
+}
+
+#Slot7Text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 40%;
+    margin-top: 30%;
+    font-size: 20px;
+}
+
+#Slot7Text:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#Slot7Text:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+#Slot7Text:hover {
+    color: darkred;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+#Slot7Text:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#Slot8 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    margin-top: -85px;
+    margin-left: 350px;
+    width: 30%;
+    height: 80px;
+    background-color: gray;
+    border-color: black;
+    border-style: solid;
+}
+
+#Slot8Text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 40%;
+    margin-top: 30%;
+    font-size: 20px;
+}
+
+#Slot8Text:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#Slot8Text:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+#Slot8Text:hover {
+    color: darkred;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+#Slot8Text:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#Slot9 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    margin-top: -85px;
+    margin-left: 680px;
+    width: 30%;
+    height: 80px;
+    background-color: gray;
+    border-color: black;
+    border-style: solid;
+}
+
+#Slot9Text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 40%;
+    margin-top: 30%;
+    font-size: 20px;
+}
+
+#Slot9Text:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#Slot9Text:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+#Slot9Text:hover {
+    color: darkred;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+#Slot9Text:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
